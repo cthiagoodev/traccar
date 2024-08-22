@@ -37,7 +37,7 @@ Este fork do repositório Traccar é um projeto experimental com o objetivo de m
 
 **Nota:** Esta migração está em andamento e destina-se a estudo e experimentação.
 
-## Equipe
+## Equipe do projeto original
 - Anton Tananaev (anton@traccar.org)
 - Andrey Kunitsyn (andrey@traccar.org)
 
