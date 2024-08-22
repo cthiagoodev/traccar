@@ -1,53 +1,57 @@
-# [Traccar](https://www.traccar.org)
+# Traccar
 
-## Overview
+## Visão Geral
+Traccar é um sistema de rastreamento GPS de código aberto. Este repositório contém o serviço de back-end baseado em Java. Ele suporta mais de 200 protocolos GPS e mais de 2000 modelos de dispositivos de rastreamento GPS. O Traccar pode ser usado com qualquer sistema de banco de dados SQL. Também oferece uma API REST fácil de usar.
 
-Traccar is an open source GPS tracking system. This repository contains Java-based back-end service. It supports more than 200 GPS protocols and more than 2000 models of GPS tracking devices. Traccar can be used with any major SQL database system. It also provides easy to use [REST API](https://www.traccar.org/traccar-api/).
+Outras partes da solução Traccar incluem:
 
-Other parts of Traccar solution include:
+- Aplicativo web do Traccar
+- Aplicativo Traccar Manager para Android
+- Aplicativo Traccar Manager para iOS
 
-- [Traccar web app](https://github.com/traccar/traccar-web)
-- [Traccar Manager Android app](https://github.com/traccar/traccar-manager-android)
-- [Traccar Manager iOS app](https://github.com/traccar/traccar-manager-ios)
+Também há um conjunto de aplicativos móveis que você pode usar para rastrear dispositivos móveis:
 
-There is also a set of mobile apps that you can use for tracking mobile devices:
+- Aplicativo Traccar Client para Android
+- Aplicativo Traccar Client para iOS
 
-- [Traccar Client Android app](https://github.com/traccar/traccar-client-android)
-- [Traccar Client iOS app](https://github.com/traccar/traccar-client-ios)
+## Recursos
+Alguns dos recursos disponíveis incluem:
 
-## Features
+- Rastreamento GPS em tempo real
+- Monitoramento de comportamento do motorista
+- Relatórios detalhados e resumidos
+- Funcionalidade de geofencing
+- Alarmes e notificações
+- Gerenciamento de contas e dispositivos
+- Suporte a e-mail e SMS
 
-Some of the available features include:
+## Compilação
+Por favor, leia a documentação sobre como compilar a partir do código-fonte no site oficial.
 
-- Real-time GPS tracking
-- Driver behaviour monitoring
-- Detailed and summary reports
-- Geofencing functionality
-- Alarms and notifications
-- Account and device management
-- Email and SMS support
+## Migração para Kotlin e Ktor
+Este fork do repositório Traccar é um projeto experimental com o objetivo de migrar a base de código de Java para Kotlin e Ktor. Os principais objetivos dessa migração são:
 
-## Build
+- Melhorar a legibilidade e a manutenção do código
+- Aproveitar os recursos modernos da linguagem Kotlin
+- Utilizar o Ktor para um framework web mais eficiente e flexível
 
-Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
+**Nota:** Esta migração está em andamento e destina-se a estudo e experimentação.
 
-## Team
-
-- Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
-- Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
+## Equipe
+- Anton Tananaev (anton@traccar.org)
+- Andrey Kunitsyn (andrey@traccar.org)
 
 ## License
+Apache License, Version 2.0
 
-    Apache License, Version 2.0
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
 
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
