@@ -19,28 +19,28 @@ interface Protocol {
      *
      * @return The protocol name.
      */
-    val name: String
+    var name: String
 
     /**
      * Retrieves a list of [TrackerConnector]s supported by the protocol.
      *
      * @return A list of supported tracker connectors.
      */
-    fun connectors(): List<TrackerConnector>
+    var connectors: MutableList<TrackerConnector>
 
     /**
      * Retrieves a list of data commands supported by the protocol.
      *
      * @return A list of supported data commands.
      */
-    fun supportedDataCommands(): List<String>
+    var supportedDataCommands: MutableList<String>
 
     /**
      * Retrieves a list of text commands supported by the protocol.
      *
      * @return A list of supported text commands.
      */
-    fun supportedTextCommands(): List<String>
+    var supportedTextCommands: MutableList<String>
 
     /**
      * Sends a data command using the specified channel and remote address.
@@ -49,7 +49,7 @@ interface Protocol {
      * @param remoteAddress The address of the remote endpoint.
      * @param command The command to send.
      */
-    fun sendDataCommand(channel: Channel, remoteAddress: SocketAddress, command: Command)
+    fun sendCommand(channel: Channel, remoteAddress: SocketAddress, command: Command)
 
     /**
      * Sends a text command to the specified destination address.
@@ -57,5 +57,5 @@ interface Protocol {
      * @param destAddress The destination address for the command.
      * @param command The command to send.
      */
-    fun sendTextCommand(destAddress: String, command: Command)
+    fun sendCommand(destAddress: String, command: Command)
 }
