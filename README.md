@@ -37,6 +37,9 @@ Este fork do repositório Traccar é um projeto experimental com o objetivo de m
 
 **Nota:** Esta migração está em andamento e destina-se a estudo e experimentação.
 
+## Reconhecimento
+Este projeto é um fork do repositório original Traccar. Agradecemos a Anton Tananaev e Andrey Kunitsyn pela criação e desenvolvimento do projeto original. Para mais informações, visite o projeto original no [GitHub](https://github.com/traccar/traccar).
+
 ## Equipe do projeto original
 - Anton Tananaev (anton@traccar.org)
 - Andrey Kunitsyn (andrey@traccar.org)
